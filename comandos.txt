@@ -1,0 +1,4 @@
+npm install -> gera a node modules
+alt+ esp - always on tap - traba o emoluador na tela
+expo start -> executa a aplicação caso não abra no navegador, apertar a tecla D quando aparecer a opção no terminal
+paertando R no terminar da reload

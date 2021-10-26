@@ -11,7 +11,6 @@ export const styles = StyleSheet.create({
         flex: 1,
         alignItems:'center',//alinha na vertical
         justifyContent: 'center', //alinha na horizontal
-        backgroundColor: theme.colors.background,
         
     },
 
@@ -31,6 +30,8 @@ export const styles = StyleSheet.create({
         textAlign:'center',
         fontSize: 40,
         marginBottom: 16,
+        fontFamily:theme.fonts.title700,
+        lineHeight:40, 
     },
 
     subtitle:{
@@ -38,6 +39,8 @@ export const styles = StyleSheet.create({
         fontSize:15,
         textAlign:'center',
         marginBottom:64,
+        fontFamily: theme.fonts.title500,
+        lineHeight: 25,
     },
 
 });

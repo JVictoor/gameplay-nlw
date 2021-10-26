@@ -2,3 +2,27 @@ npm install -> gera a node modules
 alt+ esp - always on tap - traba o emoluador na tela
 expo start -> executa a aplicação caso não abra no navegador, apertar a tecla D quando aparecer a opção no terminal
 paertando R no terminar da reload
+
+para instalar as fontes acessa o google fonts pega o nome da fonte desejada 
+antes precisa configurar a instalção das fontes no expo
+comando --> expo install expo-font @expo-google-fonts/inter
+no caso estamos intalando a expo-font para o usuario ter acesso a fonte e o /inter é uma das fontes
+
+para instar outras fontes:
+--> expo @expo-google-fonts/nome da fonte
+não é necessario o install expo-font pois já instalamos ele
+
+instalando o auxiliar do if do carregamento das fonts na splash--> expo install expo-app-loading
+
+aplicando o gradient
+codigo : expo install expo-linear-gradient
+
+biblioteca pada funcionalidades do iphone 11 (com detalhes em relação a tela)
+--> yarn add react-native-iphone-x-helper
+
+navegação do app core de navegação --> yarn add @react-navigation/native
+           
+            Biblioteca de botoões dependencias--> expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+            
+            Estilo de navegação --> yarn add @react-navigation/stack
+    
